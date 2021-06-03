@@ -1,0 +1,108 @@
+*{
+padding:0px;
+margin:0px;
+}
+
+body
+{
+	background-image:url(background.jpg);
+	background-size:cover;
+	background-position:center;
+	box-sizing:border-box;
+	font-family:Times New Roman;
+}
+
+#navbar
+{
+	background-color:green;
+	text-align:center;
+	padding:20px;
+}
+#navbar ul
+{
+   display:inline-flex;
+   list-style:none;
+   color:white;
+   margin:auto;
+}
+
+#navbar ul li
+{
+ padding:0px 50px;
+ font-size:20px;
+ 	
+}
+
+#login_form ,#add_marks
+{
+	display:flex;
+	flex-direction:column;
+	width:20%;
+	margin-left:40%;
+	margin-top:6%;
+}
+
+
+label
+{
+	display:block;
+ 	outline:none;
+ 	border:0px;
+ 	color:green;
+ 	padding:15px;
+ 	margin:auto;
+ 	background:none;
+ }
+
+h1 ,h3{
+  color:purple;
+  margin-left:40%;
+  margin-right:40%;
+  margin-top:2%;
+  background-color:white;
+ }
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 3px solid purple;
+  margin-top:10%;
+}
+
+th, td {
+  padding: 20px;
+  width:25%;
+}
+
+a:link, a:visited {
+  background-color: purple;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
+input {
+  
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+}
